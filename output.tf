@@ -5,5 +5,5 @@ output "bucket_arn" {
 
 output "bucket_name" {
     description ="bucket name to be provided"
-    value = aws_s3_bucket.this.bucket_name
+    value = aws_s3_bucket.this.bucket
 }
